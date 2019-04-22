@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "JSR_GLIDE", "JSR_GLIDE\JSR_GLIDE.rptproj", "{E4314A11-E952-4569-8F40-3FDD35016D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.Debug|Default.ActiveCfg = Debug
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.Debug|Default.Build.0 = Debug
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.Debug|Default.Deploy.0 = Debug
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.DebugLocal|Default.Build.0 = DebugLocal
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.Release|Default.ActiveCfg = Release
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.Release|Default.Build.0 = Release
+		{E4314A11-E952-4569-8F40-3FDD35016D10}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9E797AF-518A-4F7B-9867-99B69FE3F143}
+	EndGlobalSection
+EndGlobal
