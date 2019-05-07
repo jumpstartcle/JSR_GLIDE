@@ -1359,7 +1359,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="SalesForce">
-      <DataSourceReference>SFDown_Shared</DataSourceReference>
+      <DataSourceReference>SalesForce-Read</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>b9f869bc-5b92-4441-8db6-4e6cb8f4ca1a</rd:DataSourceID>
     </DataSource>

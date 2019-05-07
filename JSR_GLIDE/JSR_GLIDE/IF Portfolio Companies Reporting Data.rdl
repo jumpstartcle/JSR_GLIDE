@@ -3,7 +3,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="SFDown">
-      <DataSourceReference>SFDown_Shared</DataSourceReference>
+      <DataSourceReference>SalesForce-Read</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>acaa8511-f39e-46c4-96ae-eb5d7ea072c0</rd:DataSourceID>
     </DataSource>
