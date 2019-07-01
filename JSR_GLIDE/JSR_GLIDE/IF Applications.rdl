@@ -52,7 +52,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Opportunity Name</Value>
+                              <Value>Program Name</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -598,25 +598,25 @@
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox6">
+                    <Textbox Name="ProgName">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!OppName.Value</Value>
+                              <Value>=Fields!ProgName.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox6</rd:DefaultName>
+                      <rd:DefaultName>ProgName</rd:DefaultName>
                       <ActionInfo>
                         <Actions>
                           <Action>
-                            <Hyperlink>="https://na2.salesforce.com/" &amp; Fields!OppId.Value</Hyperlink>
+                            <Hyperlink>="https://na2.salesforce.com/" &amp; Fields!ProgId.Value</Hyperlink>
                           </Action>
                         </Actions>
                       </ActionInfo>
@@ -624,26 +624,6 @@
                         <Border>
                           <Style>Solid</Style>
                         </Border>
-                        <TopBorder>
-                          <Color>Black</Color>
-                          <Style>Solid</Style>
-                          <Width>1pt</Width>
-                        </TopBorder>
-                        <BottomBorder>
-                          <Color>Black</Color>
-                          <Style>Solid</Style>
-                          <Width>1pt</Width>
-                        </BottomBorder>
-                        <LeftBorder>
-                          <Color>Black</Color>
-                          <Style>Solid</Style>
-                          <Width>1pt</Width>
-                        </LeftBorder>
-                        <RightBorder>
-                          <Color>Black</Color>
-                          <Style>Solid</Style>
-                          <Width>1pt</Width>
-                        </RightBorder>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -752,14 +732,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox12">
+                    <Textbox Name="Date_of_First_Contact__c">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!lead_creation_date__c.Value</Value>
+                              <Value>=Fields!Date_of_First_Contact__c.Value</Value>
                               <Style>
                                 <Format>M/d/yyyy</Format>
                               </Style>
@@ -768,7 +748,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <rd:DefaultName>Date_of_First_Contact__c</rd:DefaultName>
                       <Style>
                         <Border>
                           <Style>Solid</Style>
@@ -803,21 +783,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox14">
+                    <Textbox Name="Stage__c">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!StageName.Value</Value>
+                              <Value>=Fields!Stage__c.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox14</rd:DefaultName>
+                      <rd:DefaultName>Stage__c</rd:DefaultName>
                       <Style>
                         <Border>
                           <Style>Solid</Style>
@@ -1173,7 +1153,7 @@
               <Group Name="Details" />
               <SortExpressions>
                 <SortExpression>
-                  <Value>=Fields!lead_creation_date__c.Value</Value>
+                  <Value>=Fields!Date_of_First_Contact__c.Value</Value>
                   <Direction>Descending</Direction>
                 </SortExpression>
                 <SortExpression>
@@ -1318,7 +1298,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Query Last Modified/Reviewed: 4/11/2013</Value>
+                  <Value>Query Last Modified/Reviewed: 6/13/2019</Value>
                   <Style>
                     <FontSize>8pt</FontSize>
                   </Style>
@@ -1369,15 +1349,15 @@
       <Query>
         <DataSourceName>SalesForce</DataSourceName>
         <CommandText>Select *
-From vwIFApplications</CommandText>
+From [vwIFApplications]</CommandText>
       </Query>
       <Fields>
-        <Field Name="OppId">
-          <DataField>OppId</DataField>
+        <Field Name="ProgId">
+          <DataField>ProgId</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="OppName">
-          <DataField>OppName</DataField>
+        <Field Name="ProgName">
+          <DataField>ProgName</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="OrgName">
@@ -1388,12 +1368,12 @@ From vwIFApplications</CommandText>
           <DataField>GrantType</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="lead_creation_date__c">
-          <DataField>Lead_Creation_Date__c</DataField>
+        <Field Name="Date_of_First_Contact__c">
+          <DataField>Date_of_First_Contact__c</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
-        <Field Name="StageName">
-          <DataField>StageName</DataField>
+        <Field Name="Stage__c">
+          <DataField>Stage__c</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="EntrepreneurName">
@@ -1404,20 +1384,20 @@ From vwIFApplications</CommandText>
           <DataField>EntrepreneurEthnicity</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="Industry_Type__c">
-          <DataField>Industry_Type__c</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="EntrepreneurEmail">
           <DataField>EntrepreneurEmail</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="County__c">
-          <DataField>County__c</DataField>
+        <Field Name="Industry_Type__c">
+          <DataField>Industry_Type__c</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="ESP_Primary_Market_Application_2017__c">
           <DataField>ESP_Primary_Market_Application_2017__c</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="County__c">
+          <DataField>County__c</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
