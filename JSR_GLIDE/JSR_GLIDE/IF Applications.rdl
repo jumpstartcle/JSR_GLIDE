@@ -1339,7 +1339,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="SalesForce">
-      <DataSourceReference>SalesForce-Read</DataSourceReference>
+      <DataSourceReference>SF_JSFull-Shared</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>b9f869bc-5b92-4441-8db6-4e6cb8f4ca1a</rd:DataSourceID>
     </DataSource>
@@ -1349,7 +1349,7 @@
       <Query>
         <DataSourceName>SalesForce</DataSourceName>
         <CommandText>Select *
-From [vwIFApplications]</CommandText>
+From SSRS.[vwIFApplications]</CommandText>
       </Query>
       <Fields>
         <Field Name="ProgId">

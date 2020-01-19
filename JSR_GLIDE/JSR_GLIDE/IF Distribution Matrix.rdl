@@ -2616,7 +2616,7 @@
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="SalesForce">
-      <DataSourceReference>SalesForce-Read</DataSourceReference>
+      <DataSourceReference>SF_JSFull-Shared</DataSourceReference>
       <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>ff0d9fec-04dd-41b9-9b28-992e927a7905</rd:DataSourceID>
     </DataSource>
@@ -2626,7 +2626,7 @@
       <Query>
         <DataSourceName>SalesForce</DataSourceName>
         <CommandText>Select *
-From vwIFDistributionMatrix</CommandText>
+From SSRS.vwIFDistributionMatrix</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
