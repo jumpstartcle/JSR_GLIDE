@@ -1608,7 +1608,7 @@
             <DataSetName>ESP_SemiAnnual_IF</DataSetName>
             <Top>1.275in</Top>
             <Height>0.5in</Height>
-            <Width>23.684in</Width>
+            <Width>23.68359in</Width>
             <Style />
           </Tablix>
           <Textbox Name="textbox15">
