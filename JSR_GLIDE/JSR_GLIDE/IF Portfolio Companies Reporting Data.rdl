@@ -168,8 +168,8 @@
           <DataField>period_date</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
-        <Field Name="Network_Services_Client_Date__c">
-          <DataField>Network_Services_Client_Date__c</DataField>
+        <Field Name="NEO_ESP_Client_Date__c">
+          <DataField>NEO_ESP_Client_Date__c</DataField>
           <rd:TypeName>System.DateTime</rd:TypeName>
         </Field>
         <Field Name="HoursClient">
