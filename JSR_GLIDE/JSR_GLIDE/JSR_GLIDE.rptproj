@@ -49,7 +49,6 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
-    <DataSource Include="SalesForce-Read.rds" />
     <DataSource Include="SF_JSFull-Shared.rds" />
     <DataSource Include="SF_Vault-Shared.rds" />
   </ItemGroup>
