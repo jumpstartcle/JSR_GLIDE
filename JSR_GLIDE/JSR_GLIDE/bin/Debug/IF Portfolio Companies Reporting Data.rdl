@@ -212,8 +212,8 @@
           <DataField>calculated_ebit__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="Total_Number_of_Employees_OH_Override__c">
-          <DataField>Total_Number_of_Employees_OH_Override__c</DataField>
+        <Field Name="Total_Number_of_FTEs_Ohio_Reported__c">
+          <DataField>Total_Number_of_FTEs_Ohio_Reported__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="Total_Number_of_Issued_Patents__c">
@@ -232,16 +232,16 @@
           <DataField>Total_Number_of_Open_Positions__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="Jobs_Production_Calc__c">
-          <DataField>Jobs_Production_Calc__c</DataField>
+        <Field Name="Jobs_Production_Total__c">
+          <DataField>Jobs_Production_Total__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="Jobs_Research_Calc__c">
-          <DataField>Jobs_Research_Calc__c</DataField>
+        <Field Name="Jobs_Research_Total__c">
+          <DataField>Jobs_Research_Total__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="Total_Other_Jobs_f__c">
-          <DataField>Total_Other_Jobs_f__c</DataField>
+        <Field Name="Jobs_Other_Total__c">
+          <DataField>Jobs_Other_Total__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="Number_of_Minority_Employees__c">
@@ -260,8 +260,8 @@
           <DataField>Approximate_Average_Salary__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
-        <Field Name="Total_Number_of_FTEs_OH__c">
-          <DataField>Total_Number_of_FTEs_OH__c</DataField>
+        <Field Name="Total_Number_of_FTEs_Ohio__c">
+          <DataField>Total_Number_of_FTEs_Ohio__c</DataField>
           <rd:TypeName>System.Decimal</rd:TypeName>
         </Field>
         <Field Name="Jobs_Production_Ohio__c">
@@ -1206,7 +1206,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!Total_Number_of_FTEs_OH__c.Value</Value>
+                                  <Value>=Fields!Total_Number_of_FTEs_Ohio__c.Value</Value>
                                   <Style />
                                 </TextRun>
                               </TextRuns>
