@@ -1199,7 +1199,7 @@
                     </TablixCell>
                     <TablixCell>
                       <CellContents>
-                        <Textbox Name="Total_Number_of_FTEs_OH__c">
+                        <Textbox Name="Total_Number_of_FTEs_Ohio__c">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
                           <Paragraphs>
@@ -1215,7 +1215,7 @@
                               </Style>
                             </Paragraph>
                           </Paragraphs>
-                          <rd:DefaultName>Total_Number_of_FTEs_OH__c</rd:DefaultName>
+                          <rd:DefaultName>Total_Number_of_FTEs_Ohio__c</rd:DefaultName>
                           <ZIndex>8</ZIndex>
                           <Style>
                             <Border>
