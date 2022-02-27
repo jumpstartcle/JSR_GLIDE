@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "JSR_GLIDE", "JSR_GLIDE\JSR_GLIDE.rptproj", "{E4314A11-E952-4569-8F40-3FDD35016D10}"
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Glide Archived", "Glide Archived\Glide Archived.rptproj", "{2F2E6BCD-731A-43F6-8585-D02D8169757B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default
@@ -20,6 +22,14 @@ Global
 		{E4314A11-E952-4569-8F40-3FDD35016D10}.Release|Default.ActiveCfg = Release
 		{E4314A11-E952-4569-8F40-3FDD35016D10}.Release|Default.Build.0 = Release
 		{E4314A11-E952-4569-8F40-3FDD35016D10}.Release|Default.Deploy.0 = Release
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.Debug|Default.ActiveCfg = Debug
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.Debug|Default.Build.0 = Debug
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.Debug|Default.Deploy.0 = Debug
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.DebugLocal|Default.Build.0 = DebugLocal
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.Release|Default.ActiveCfg = Release
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.Release|Default.Build.0 = Release
+		{2F2E6BCD-731A-43F6-8585-D02D8169757B}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
